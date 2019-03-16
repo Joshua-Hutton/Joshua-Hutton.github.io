@@ -51,8 +51,8 @@ h3{
     padding: 30px;
 }
 .contact-container{
-    width:150px;
-    background: #ffffff;
+    width:135px;
+    background: #4e4c4cd5;
     padding:10px;
     margin: 0 auto;
     border: 3px solid #000000;
@@ -65,8 +65,8 @@ h3{
     margin: 0 auto;
 }
 
-.image-container a{
-    display: inline;
+.image-container img{
+    height: 30;
+    width: 30;
+    border:1px solid #000000;
 }
- 
- 
