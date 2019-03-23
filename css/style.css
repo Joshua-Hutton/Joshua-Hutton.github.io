@@ -72,14 +72,14 @@ h4{
 
 .language input {
     background-color: #ffffff;
-    
+
     border: 2px double #000000;
     border-radius: 10px;
     box-shadow: 5px 5px 7px;
 }
 
 .language input:hover{
-    background: #53576b2f;
+   
     box-shadow: inset 3px 3px ;
 }
 
