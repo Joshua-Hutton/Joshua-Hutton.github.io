@@ -24,6 +24,7 @@ img{
     background-color: #ffffffb6;
     width: 530px;
 }
+
 header{
     height: 1000px;
     background-image: url(../images/DSCN1237.JPG);
@@ -133,4 +134,15 @@ h4{
     height: 30;
     width: 30;
     border:1px solid #000000;
+}
+
+@media (max-width: 540px){
+    #titleStuff{
+    width: 100%;
+    }
+
+    h3{
+        padding: 0;
+        height: 100px;
+    }
 }
