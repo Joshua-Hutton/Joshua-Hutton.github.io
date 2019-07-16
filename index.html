@@ -47,23 +47,122 @@
               </div>
             </nav>       
           
-            <h1>Joshua Hutton</h1>
-            <h2>Software Developer</h2>
-          
+            <div id="titleStuff">
+              <h1 class="text-dark">Joshua Hutton</h1>
+              <h2 class="text-dark">Software Developer</h2>
+              <p>Email: Huttonjc@outlook.com<br>
+                Phone: (734) 985-5977<br>
+              </p>
+            </div>
         </header>
         
 
     <div class="bodyContainer">
-
-
+        <!-----------------------
+             ABOUT SECTION
+        ------------------------>
+    <div id="about">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-4">
+              <img src="images/Photo.jpg" alt="" />
+            </div> 
+            <div class="col">
+              <h2 class="card-title">About Me</h2>
+              <p class="card-text">Hello! I am Joshua Hutton a software Developer from Ypsilanti, Mi. 
+                  I've been intrested in and learning software since I 2016. 
+                  I served for 4 years in the United States Marine Corps for 2011 till 2015. 
+                  when I was honably discharged. while in the marines I served as a
+                  Combat Enginer In north carolina. In the past 3 years I have learned a number
+                  of programing languages and have worked with teams of other developers to 
+                  create programs using adgile and scrum. </p>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
         <!-------------------------
             THE SKILLS SECTOION
         --------------------------->
 
 
-        <h3 id="skills" class="bg-socondary">Skills</h3>
+     <h3 id="skills" >Programing Languages</h3>
+          <div id="langs">
+            <div class="card">
+              <div class="card-body row">
+                <div class="col-2">
+                  <img src="images/C++.jpg" alt="C++" />
+                </div>
+                <div class="col">
+                  <h2 class="card-title">C++ and PHP</h2>
+                  <p class="card-text">I learned C++ and PHP from Washenaw community college while getting My Associates degree in C++. while there I got my first look at object orented Programing
+                    as well as working with data structures. In getting that degree we rebuilt all data structures that comes as part of the standerd library such as lists, linked lists, 
+                    ques and more as well and black and red tree. 
+                    while there I also was introduced to PHP and SQL. We used php to interact and query databases and read comma delinated files into a data base. 
+                    these courses were also my first introduction to HTML.
+                  </p>
+                </div>
+              </div>  
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <h2 class="card-title">HTML, CSS and JavaScript</h2>
+                    <p class="card-text">
+                      I was first introduced to html while learning PHP but was given the minum I need to make the php work. 
+                      While going throw The Tech Accademy Software Development Boot camp I receved my first real instruction on HTML 
+                      and learned how to pare it with CSS and JavaScript to make intreasting a funcanal web pages. I was also intrduced to 
+                      bootstrap and jquery for faster development of these web pages.
+                    </p>
+                  </div>
+                  <div class="col">
+                    <img src="images/hcj.jpg" alt="HTML/CSS/JavaScript" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-3">
+                    <img src="images/python-logo.png" alt="Python" />
+                  </div>
+                  <div class="col">
+                    <h2 class="card-title">Python</h2>
+                    <p class="card-text">
+                      I learned the basics of python from the Tech Accademy. I the python course we made console applications to demenstrate object orented programing practices. 
+                      we then made a simple web site using Django. I then worked with a team of other students on a 2 week sprint of a live project. In these two weeks 
+                      we used Azure dev opps and git sourse contol to work on user stories. I particpated in a project paning meeting a daily stand ups via google meet to aprize my 
+                      team of my progres and used slack to keep in touch in my team. I work on a second 2 week sprint at the end of the program again working in Django and the same 
+                      comunicaion tools focusing on backend opreaions. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <h2 class="card-title">C#</h2>
+                    <p class="card-text">
+                      The last language I coverd with The Tech Accademy was C#. We further covered the object orented programming method as well a working on MVC projects. We build 
+                      both database first as well as code first MVC projects. At the end of the C# course I worked on a MVC Live project in 2 week sprints. Using Azure dev ops as well 
+                      as git version control we work as a team of students to complete user stories. I participated in project planing meetings and daily stand ups for each sprint. 
+                      we used google meet and slack to comunicate with the team. I completed one sprint as a genrel C# developer and a second sprint focusing on Front end devlepment tasks.
+                    </p>
+                  </div>
+                  <div class="col-3">
+                    <img src="images/CSharp.png" alt="CSharp" />
+                  </div>
+                 </div> 
+              </div>
+            </div>
+          </div>
 
-        <div class="container">
+<!--        <div class="container">
             <div class="skills">
 
               <div class="language">
@@ -72,7 +171,7 @@
 
                     <input type="image" src="images/hcj.jpg" alt="HTML_CSS_JS" data-toggle="modal" data-target="#hcj">
                     
-                      <!-- Modal -->
+                      Modal
                       <div class="modal fade" id="hcj" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                           <div class="modal-content">
@@ -103,7 +202,7 @@
                 <div class="langBottom">
 
                   <input type="image" src="images/C++.jpg" alt="C++" data-toggle="modal" data-target="#C++">
-                  <!-- Modal -->
+                  Modal
                   <div class="modal fade" id="C++" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -128,7 +227,7 @@
 
 
                   <input type="image" src="images/php.png" alt="PHP" data-toggle="modal" data-target="#php">
-                   <!-- Modal -->
+                   Modal
                    <div class="modal fade" id="php" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -152,7 +251,7 @@
 
 
                     <input type="image" src="images/sql-logo.png" alt="SQL" data-toggle="modal" data-target="#sql">
-                    <!-- Modal -->
+                    Modal
                     <div class="modal fade" id="sql" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                        <div class="modal-dialog" role="document">
                          <div class="modal-content">
@@ -175,7 +274,7 @@
 
 
                      <input type="image" src="images/python-logo.png" alt="Python" data-toggle="modal" data-target="#python">
-                   <!-- Modal -->
+                   Modal
                    <div class="modal fade" id="python" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -197,7 +296,7 @@
                     </div>
 
                     <input type="image" src="images/CSharp.png" alt="C#" data-toggle="modal" data-target="#C#">
-                    <!-- Modal -->
+                    Modal
                    <div class="modal fade" id="C#" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                       <div class="modal-content">
@@ -239,7 +338,7 @@
 
             </div>
          
-        </div>
+        </div> -->
         
         <!-------------------------
           THE EXPERENCE SECTION
