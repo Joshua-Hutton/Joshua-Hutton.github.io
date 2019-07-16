@@ -7,6 +7,11 @@ body {
     background-attachment: fixed; 
 }
 
+img{
+    width: 100%;
+    height: auto;
+}
+
 .bodyContainer{
     width: 85%;
     margin: 15px auto;
@@ -81,15 +86,14 @@ h4{
     margin:15px;
 }
 #about img{
-    height: 350px;
-    width: auto;
     border-radius: 10px; 
-    }
+}
     
 #about .card{
     margin: 15px;
 
 }
+
 #langs .card{
     margin: 15px;
 
