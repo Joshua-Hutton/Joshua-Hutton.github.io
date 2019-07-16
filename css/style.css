@@ -17,7 +17,7 @@ img{
     margin: 15px auto;
     padding: 15px 0;
     background-color: #8c8c8fa8;
-    border-radius: 15px;
+    
 }
 
 #titleStuff{
@@ -83,9 +83,6 @@ h4{
     justify-content: center;
 }
 
-#about{
-    margin:15px;
-}
 #about img{
     border-radius: 10px; 
 }
