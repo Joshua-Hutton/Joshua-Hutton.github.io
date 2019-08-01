@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/DSCN1237.JPG);
+    background-image: url(../images/background.png);
     background-color: #1a1a1d;
     background-repeat: no-repeat;
     background-position: center;
@@ -20,14 +20,14 @@ img{
     
 }
 
-#titleStuff{
+/* #titleStuff{
     background-color: #ffffffb6;
     width: 530px;
-}
+} */
 
 header{
     height: 800px;
-    background-image: url(../images/DSCN1237.JPG);
+    background-image: url(../images/background.png);
     background-color: #1a1a1d;
     background-repeat: no-repeat;
     background-position: center;
